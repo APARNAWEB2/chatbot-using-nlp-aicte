@@ -5,13 +5,13 @@ import os
 import json
 import datetime
 import csv
-import nltk
 import ssl
 import streamlit as st
 import random
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 
+import nltk
 ssl._create_default_https_context = ssl._create_default_https_context
 nltk.data.path.append(os.path.abspath("nltk_data"))
 nltk.download("punkt")
