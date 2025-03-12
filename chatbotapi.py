@@ -1,3 +1,8 @@
+!pip install nltk
+
+import nltk
+nltk.download('punkt')
+nltk.download('wordnet')
 
 import os
 import json
